@@ -1,0 +1,98 @@
+body{
+  background: url(../public/images/yblobs-half.png),url(../public/images/bblob-half.png);
+  background-position: right top, left bottom;
+  background-repeat: no-repeat, no-repeat;
+}
+main{
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+.front-page{
+  text-align: center;
+}
+.heading{  
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  color: #293264;
+}
+.description{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #293264;
+}
+.buttons{
+  width: 200px;
+  height: 52px;
+  background: #4D5B9E;
+  border-radius: 15px;
+  color: white;
+  border: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #F5F7FB;
+}
+
+.quiz_box{
+  padding: 15px;
+}
+
+.questions{
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #293264;
+}
+.options{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  
+}
+.options>button{
+  width:fit-content;
+  padding: 5px;
+  border: 1px solid #4D5B9E;
+  border-radius: 8px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  color: #293264;
+  margin: 10px;
+  background-color: white;
+  
+}
+hr{
+  border: 0.8px solid #DBDEF0;
+}
+.options>button:hover{
+  cursor:pointer;
+}
+
+.score_container{
+  display: flex;
+  align-items: center;
+  gap:50px;
+}
+
+.score_container>h3{
+
+  color: #4D5B9E;
+}
+
+
+
