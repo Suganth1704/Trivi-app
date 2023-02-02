@@ -2,8 +2,8 @@
 
 function Quiz(props){
 
-    console.log(props.questions.selected_answer)
-    console.log(props.showAnswer)
+    //console.log(props.questions.selected_answer)
+    //console.log(props.showAnswer)
     function styler(opt,index){
         if(props.showAnswer===true){
             if(props.questions.correct_answer === opt){
