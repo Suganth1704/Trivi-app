@@ -126,7 +126,7 @@ function App() {
         </div> : 
         <div className='front-page'>
           <h1 className='heading'>Quizzical</h1>
-          <p className='description' >Simple trivia</p>
+          <p className='description' >Simple Trivia Application</p>
           <button className='buttons' onClick={change} >Start quiz</button>
         </div>
       }
